@@ -19,6 +19,14 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "pages/chatgpt/features/Sarcastic.js",
+    "components/header/navbar.tsx",
+    "pages/index.tsx",
+    "pages/room/index.tsx"
+  ],
   "exclude": ["node_modules"]
 }
